@@ -908,7 +908,7 @@ p.teal14 {
   margin-top: 10px;
 }
 
-#penang .penang-text, #penang .penang-desc { text-align: left; }
+#penang .penang-text, #penang .penang-desc, { text-align: left; }
 
 #penang .penang-text {
     color: #00a7be;
@@ -916,7 +916,7 @@ p.teal14 {
     margin-bottom: 10px;
     text-align: center;
 }
-#penang .penang-desc { font-size: .8em }
+#penang .penang-desc { font-size: .8em; text-align: left !important; }
 
 #penang .source { font-size: 0.8em; }
 }
