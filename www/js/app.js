@@ -1266,6 +1266,165 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       // ----------------- 
       // 
 
+.state('app.vp-hn', {
+        url: '/vp-hn',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-hendra-nilam.html',
+          }
+        }
+      })
+      .state('app.vp-hn-ar', {
+        url: '/vp-hn-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-hendra-nilam-ar.html',
+          }
+        }
+      })
+      .state('app.vp-hn-fr', {
+        url: '/vp-hn-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-hendra-nilam-fr.html',
+          }
+        }
+      })
+      .state('app.vp-hn-id', {
+        url: '/vp-hn-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-hendra-nilam-id.html',
+          }
+        }
+      })
+      .state('app.vp-hn-ru', {
+        url: '/vp-hn-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-hendra-nilam-ru.html',
+          }
+        }
+      })
+      .state('app.vp-hn-tr', {
+        url: '/vp-hn-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-hendra-nilam-tr.html',
+          }
+        }
+      })
+
+      // 
+      // ----------------- 
+      // 
+
+.state('app.vp-dj', {
+        url: '/vp-dj',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-dev-johl.html',
+          }
+        }
+      })
+      .state('app.vp-dj-ar', {
+        url: '/vp-dj-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-dev-johl-ar.html',
+          }
+        }
+      })
+      .state('app.vp-dj-fr', {
+        url: '/vp-dj-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-dev-johl-fr.html',
+          }
+        }
+      })
+      .state('app.vp-dj-id', {
+        url: '/vp-dj-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-dev-johl-id.html',
+          }
+        }
+      })
+      .state('app.vp-dj-ru', {
+        url: '/vp-dj-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-dev-johl-ru.html',
+          }
+        }
+      })
+      .state('app.vp-dj-tr', {
+        url: '/vp-dj-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-dev-johl-tr.html',
+          }
+        }
+      })
+
+      // 
+      // ----------------- 
+      // 
+
+      .state('app.vp-dw', {
+        url: '/vp-dw',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-dev-wadhwani.html',
+          }
+        }
+      })
+      .state('app.vp-dw-ar', {
+        url: '/vp-dw-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-dev-wadhwani-ar.html',
+          }
+        }
+      })
+      .state('app.vp-dw-fr', {
+        url: '/vp-dw-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-dev-wadhwani-fr.html',
+          }
+        }
+      })
+      .state('app.vp-dw-id', {
+        url: '/vp-dw-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-dev-wadhwani-id.html',
+          }
+        }
+      })
+      .state('app.vp-dw-ru', {
+        url: '/vp-dw-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-dev-wadhwani-ru.html',
+          }
+        }
+      })
+      .state('app.vp-dw-tr', {
+        url: '/vp-dw-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-dev-wadwhani-tr.html',
+          }
+        }
+      })
+
+      // 
+      // ----------------- 
+      // 
+
 
 
       .state('app.newslanding', {
