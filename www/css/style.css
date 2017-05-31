@@ -902,7 +902,10 @@ p.teal14 {
   white-space: inherit;
   margin-bottom: 30px;
 }
-#penang .item img {}
+#penang .item img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 #penang .item .penang-item{
   display: block;
   margin-top: 10px;
