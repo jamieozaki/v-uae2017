@@ -1611,7 +1611,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/merchandise-ar',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise.html',
+            templateUrl: 'templates/merchandise-ar.html',
           }
         }
       })
@@ -1619,7 +1619,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/merchandise-fr',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise.html',
+            templateUrl: 'templates/merchandise-fr.html',
           }
         }
       })
@@ -1627,7 +1627,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/merchandise-id',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise.html',
+            templateUrl: 'templates/merchandise-id.html',
           }
         }
       })
@@ -1635,7 +1635,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/merchandise-tr',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise.html',
+            templateUrl: 'templates/merchandise-tr.html',
           }
         }
       })
@@ -1643,7 +1643,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/merchandise-ru',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise.html',
+            templateUrl: 'templates/merchandise-ru.html',
           }
         }
       })
