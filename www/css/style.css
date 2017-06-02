@@ -116,6 +116,16 @@
 
 .pane { background-color: #2a3a80; }
 
+#main.pane,
+#newslanding.pane,
+#penang.pane,
+#merch.pane,
+#faq.pane,
+#downloads.pane,
+#speakers.pane
+
+{ background-color: #fff; }
+
 .menu .scroll-content {
   display: -webkit-flex;
   display: -moz-flex;
