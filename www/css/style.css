@@ -40,7 +40,7 @@
 }
 
 .menu {
-  background-color: #2a3a80;
+  background: none !important;
 }
 
 .menu-open .menu-content {
@@ -63,29 +63,32 @@
 .menu .item {
   border-color: #000;
   background: 0;
+  border: none;
 }
 .menu .item-complex .item-content, .menu .item-radio .item-content {
   background: 0;
   color: #fff !important;
   text-overflow: initial;
   white-space: initial;
+  padding: 8px 16px 8px 16px;
+  text-align: center;
 }
 .menu .primary a {
   font-size: 1em;
 }
 .menu .primary .item {
-  border-bottom: 1px solid #0c1c64;
+  /*border-bottom: 1px solid #0c1c64;*/
 }
 .menu .primary .item::before {
-  border-bottom: 1px solid #42539f;
   content: "";
   display: block;
   height: 1px;
   position: relative;
 }
 .menu .primary .item:last-child {
-  border-top: 1px solid #0c1c64;
+  /*border-top: 1px solid #0c1c64;*/
   border-bottom: none;
+  text-align: center;
 }
 .menu .follow {
   margin: 30px 0 0;
@@ -101,6 +104,26 @@
   color: #fff;
   font-size: 12px;
   text-align: center;
+}
+
+.menu .merch-banner {
+  width: 200px;
+  height: 100px;
+  background-color: #000;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pane { background-color: #2a3a80; }
+
+.menu .scroll-content {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @font-face {
