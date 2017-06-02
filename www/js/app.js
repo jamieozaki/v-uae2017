@@ -2078,12 +2078,65 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             templateUrl: 'templates/whereto-tr.html',
           }
         }
+      })
+
+
+
+      // 
+      // ----------------- 
+      // 
+    .state('app.sched', {
+        url: '/sched',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/sched.html',
+          }
+        }
+      })
+      .state('app.sched-ar', {
+        url: '/sched-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/sched-ar.html',
+          }
+        }
+      })
+      .state('app.sched-fr', {
+        url: '/sched-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/sched-fr.html',
+          }
+        }
+      })
+      .state('app.sched-id', {
+        url: '/sched-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/sched-id.html',
+          }
+        }
+      })
+      .state('app.sched-ru', {
+        url: '/sched-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/sched-ru.html',
+          }
+        }
+      })
+      .state('app.sched-tr', {
+        url: '/sched-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/sched-tr.html',
+          }
+        }
       });
 
       // 
       // ----------------- 
       // 
-
 
       // -------------- ARABIC -------------- //
       // -------------- FRENCH -------------- //
